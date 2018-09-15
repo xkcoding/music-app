@@ -1,7 +1,7 @@
 <template>
   <div class="m-header">
     <div class="icon"></div>
-    <h1 class="text">header</h1>
+    <h1 class="text">music</h1>
   </div>
 </template>
 

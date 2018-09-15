@@ -12,6 +12,7 @@ module.exports = {
       .set("@", resolve("src"))
       .set("_c", resolve("src/components"))
       .set("_v", resolve("src/views"))
+      .set("api", resolve("src/api"))
       .set("_common", resolve("src/common"));
   },
   // 打包时不生成.map文件
