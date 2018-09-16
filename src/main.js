@@ -5,7 +5,7 @@ import router from "./router";
 import store from "./store";
 import fastclick from "fastclick";
 
-import "_common/css/index.styl";
+import "common/css/index.styl";
 
 fastclick.attach(document.body);
 
