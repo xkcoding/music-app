@@ -11,6 +11,7 @@
 <script>
 import MHeader from "_c/m-header/MHeader";
 import Tab from "_c/tab/Tab";
+
 export default {
   components: {
     MHeader,

@@ -2,7 +2,7 @@
   <div>
     <div v-for="(item,index) in slider" :key="`slider_img_${index}`">
       <a :href="item.linkUrl">
-        <img :src="item.picUrl" alt="">
+        <img class="slider-image" :src="item.picUrl" alt="">
       </a>
     </div>
   </div>
@@ -34,4 +34,8 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
+  .slider-image {
+    width: 100%
+  }
+
 </style>
