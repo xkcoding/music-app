@@ -1,4 +1,5 @@
 # music-app
+> 基于Vue的音乐App
 
 ## Project setup
 ```
